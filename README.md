@@ -1,5 +1,7 @@
 # dlink-camera-api
 
+[![Clojars Project](https://img.shields.io/clojars/v/org.tiago/dlink-camera-api.svg)]
+
 FIXME: description
 
 ## Installation
