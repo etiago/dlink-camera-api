@@ -1,8 +1,8 @@
-(defproject dlink-camera-api "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+(defproject org.tiago/dlink-camera-api "0.2.0"
+  :description "A screen-scraping tool for interacting with DLink cameras"
+  :url "https://github.com/etiago/dlink-camera-api"
+  :license {:name "MIT"
+            :url "https://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [clj-http "2.2.0"]
                  [org.clojure/data.codec "0.1.0"]]

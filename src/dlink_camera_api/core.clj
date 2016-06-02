@@ -41,11 +41,11 @@
                             (get-in (client/get (str "https://" ip "/motion_data.asp?" dlink-magic-rand)
                                                 {:basic-auth [username password]
                                                  :insecure? true}) [:body])))]
-    (println
-     (client/post (str "https://" ip "/cgi/admin/motion.cgi")
+    (= 200
+     (get (client/post (str "https://" ip "/cgi/admin/motion.cgi")
                   {:headers {"TOKEN" (str dlink-magic-rand "@" (apply cal-token tokens))}
                    :insecure? true
                    :basic-auth [username password]
                    :form-params form-params
-                   }))))
+                   }) :status))))
   
