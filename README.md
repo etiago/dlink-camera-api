@@ -1,6 +1,7 @@
 # dlink-camera-api
 
-[![Clojars Project](https://img.shields.io/clojars/v/org.tiago/dlink-camera-api.svg)]
+[![Clojars Project](http://clojars.org/org.tiago/dlink-camera-api/latest-version.svg)](http://clojars.org/org.tiago/dlink-camera-api)
+
 
 FIXME: description
 
