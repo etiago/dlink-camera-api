@@ -1,4 +1,4 @@
-(defproject org.tiago/dlink-camera-api "0.2.0"
+(defproject org.tiago/dlink-camera-api "0.3.0"
   :description "A screen-scraping tool for interacting with DLink cameras"
   :url "https://github.com/etiago/dlink-camera-api"
   :license {:name "MIT"

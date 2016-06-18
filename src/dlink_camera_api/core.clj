@@ -47,5 +47,7 @@
                    :insecure? true
                    :basic-auth [username password]
                    :form-params form-params
+                   :socket-timeout 3000
+                   :conn-timeout 3000
                    }) :status))))
   
